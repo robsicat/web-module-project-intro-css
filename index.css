@@ -47,13 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+/* End of CSS Reset */
+
 body {
     font-size: 16px;
-    color: #DDB9A3;
-}
-
-footer {
-    background-color: #F9E7DC;
 }
 
 .main-container {
@@ -61,6 +58,27 @@ footer {
     margin: 0 auto;
     color: black;
 }
+
+nav {
+    margin: 2% 0%;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    padding: .5% 1%;
+    text-align: center;
+    width: 144px;
+    border-radius: 20px;
+    line-height: 1.25;
+    text-decoration: none;
+}
+
 
 a:nth-child(1) {
     background-color: #FF764E;
@@ -74,40 +92,102 @@ a:nth-child(3) {
     background-color: #FFCD69;
 }
 
-a {
-    color: white;
+a, p {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+footer {
+    background-color: #F9E7DC;
 }
 
 h1 {
     font-family: 'Chelsea Market', cursive;
-}
-
-a, p {
-    font-family: 'Roboto Mono', monospace;
-    line-height: 1.2;
-}
-
-a {
-    font-weight: 300;
-    font-size: 1rem;
-    text-align: center;
-    width: 104px;
+    font-size: 4rem;
+    margin-bottom: 4%;
 }
 
 p {
-    font-weight: 300;
+    line-height: 1.25;
+}
+
+p:nth-child(1) {
+    margin-bottom: 2%;
 }
 
 
+.header-circle {
+    width: 340px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
 
-ul {
-    margin: 0;
-    padding: 0;
+.hero {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 6% auto;
 }
+
+.hero-info {
+    text-align: center;
+    width: 50%;
+    margin-left: 12%;
+}
+
+.hero-p {
+    margin-bottom: 4%;
+}
+
+.hero-p-bottom {
+    width: 60%;
+    margin: auto;
+}
+
+.about {
+    background-color: #DDB9A3;
+    padding: 1% 4%;
+    margin-bottom: 2%;
+}
+
+.about-p {
+    color: white;
+    text-align: center;
+}
+
 
 .icon {
     width: 160px; 
+}
+
+strong {
+    font-weight: bold;
+}
+
+.more-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 4%;
+}
+
+.info-container p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.footer-landscape {
+    height: 240px;
+    width: 100%;
 }
