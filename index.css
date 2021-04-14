@@ -46,3 +46,68 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+    font-size: 16px;
+    color: #DDB9A3;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+.main-container {
+    width: 1448px;
+    margin: 0 auto;
+    color: black;
+}
+
+a:nth-child(1) {
+    background-color: #FF764E;
+}
+
+a:nth-child(2) {
+    background-color: #5ED3EB;
+}
+
+a:nth-child(3) {
+    background-color: #FFCD69;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+a, p {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.2;
+}
+
+a {
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    width: 104px;
+}
+
+p {
+    font-weight: 300;
+}
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 160px; 
+}
