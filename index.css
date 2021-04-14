@@ -136,6 +136,7 @@ p:nth-child(1) {
     width: 360px;
     border-radius: 50%;
     transition: 0.3s;
+    transition-timing-function: ease-in-out;
 }
 
 .header-circle:hover {
@@ -216,9 +217,4 @@ strong {
     width: 100%;
     object-fit: cover;
     object-position: 50% 15%;
-    transition: .3s;
-}
-
-.footer-landscape:hover {
-    transform: scale(1.1);
 }
