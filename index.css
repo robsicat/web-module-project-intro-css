@@ -81,14 +81,29 @@ a {
 
 a:nth-child(1) {
     background-color: #FF764E;
+    transition: 0.3s;
+}
+
+a:hover:nth-child(1) {
+    background-color: #D8471E;
 }
 
 a:nth-child(2) {
     background-color: #5ED3EB;
+    transition: 0.3s;
+}
+
+a:hover:nth-child(2) {
+    background-color: #20B6D7;
 }
 
 a:nth-child(3) {
     background-color: #FFCD69;
+    transition: 0.3s;
+}
+
+a:hover:nth-child(3) {
+    background-color: #CD9F45;
 }
 
 a, p {
@@ -120,6 +135,11 @@ p:nth-child(1) {
 .header-circle {
     width: 360px;
     border-radius: 50%;
+    transition: 0.3s;
+}
+
+.header-circle:hover {
+    transform: scale(1.1);
 }
 
 .hero {
@@ -159,6 +179,12 @@ p:nth-child(1) {
 .icon {
     width: 160px;
     padding-bottom: 3%;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.1);
 }
 
 strong {
@@ -170,7 +196,6 @@ strong {
     align-items: center;
     flex-direction: column;
 }
-
 
 .info-container {
     display: flex;
@@ -191,4 +216,9 @@ strong {
     width: 100%;
     object-fit: cover;
     object-position: 50% 15%;
+    transition: .3s;
+}
+
+.footer-landscape:hover {
+    transform: scale(1.1);
 }
