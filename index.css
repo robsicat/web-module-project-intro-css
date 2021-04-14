@@ -54,13 +54,13 @@ body {
 }
 
 .main-container {
-    width: 1448px;
+    width: 1200px;
     margin: 0 auto;
     color: black;
 }
 
 nav {
-    margin: 2% 0%;
+    margin: 2%;
 }
 
 ul {
@@ -74,11 +74,10 @@ a {
     padding: .5% 1%;
     text-align: center;
     width: 144px;
-    border-radius: 20px;
+    border-radius: 16px;
     line-height: 1.25;
     text-decoration: none;
 }
-
 
 a:nth-child(1) {
     background-color: #FF764E;
@@ -100,6 +99,7 @@ a, p {
 
 footer {
     background-color: #F9E7DC;
+    padding-bottom: 1%;
 }
 
 h1 {
@@ -118,23 +118,22 @@ p:nth-child(1) {
 
 
 .header-circle {
-    width: 340px;
+    width: 360px;
     border-radius: 50%;
-    margin-left: 10%;
 }
 
 .hero {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
-    margin: 6% auto;
+    margin: 6% 3%;
 }
 
 .hero-info {
     text-align: center;
-    width: 50%;
-    margin-left: 12%;
+    width: 60%;
+    margin-left: 4%;
 }
 
 .hero-p {
@@ -157,9 +156,9 @@ p:nth-child(1) {
     text-align: center;
 }
 
-
 .icon {
-    width: 160px; 
+    width: 160px;
+    padding-bottom: 3%;
 }
 
 strong {
@@ -178,8 +177,8 @@ strong {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 50%;
-    margin-bottom: 4%;
+    width: 24%;
+    margin-bottom: 8%;
 }
 
 .info-container p {
@@ -190,4 +189,6 @@ strong {
 .footer-landscape {
     height: 240px;
     width: 100%;
+    object-fit: cover;
+    object-position: 50% 15%;
 }
